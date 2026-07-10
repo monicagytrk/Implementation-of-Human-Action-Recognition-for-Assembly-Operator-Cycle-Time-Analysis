@@ -1,18 +1,16 @@
-# 🏭 HATRec Cycle Time Monitor v3
-
-AI-powered cycle time monitoring untuk proses assembly manual.
+# Implementation of Human Action Recognition for Assembly Operator Cycle Time Analysis
 
 ## Struktur folder
 
 ```
 hatrec_streamlit/
 ├── app.py                        ← Streamlit dashboard utama
-├── inference.py                  ← Engine: sliding window, cycle time, Groq
-├── style.css                     ← Tema biru muda
+├── inference.py                  ← Engine: cycle time & Groq
+├── style.css                     ← Desain UI
 ├── requirements.txt
 ├── .streamlit/
-│   └── secrets.toml              ← Groq API key (jangan di-upload ke GitHub)
-├── models/                       ← BUAT FOLDER INI, copy dari Google Drive
+│   └── secrets.toml              ← Groq API key 
+├── models/                       ← Buat folder dan upload hasil trained model dan labels
 │   ├── hatrec_mobilenetv2.h5
 │   ├── config.json
 │   └── metrics.json

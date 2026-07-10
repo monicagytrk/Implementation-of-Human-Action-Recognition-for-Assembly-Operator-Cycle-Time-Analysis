@@ -1,0 +1,15 @@
+{
+  "test_accuracy": 1.0,
+  "test_f1_weighted": 1.0,
+  "best_val_acc_p1": 1.0,
+  "best_val_acc_p2": 1.0,
+  "f1_per_class": {
+    "Spring": 1.0,
+    "White part": 1.0,
+    "Screw-1": 1.0,
+    "Inflate": 1.0,
+    "Black part": 1.0,
+    "Screw-2": 1.0,
+    "Cable": 1.0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "n_classes": 7,
+  "class_names": [
+    "Assembling the spring",
+    "Placing white plastic part",
+    "Screwing-1",
+    "Inflating the valve",
+    "Placing black plastic part",
+    "Screwing-2",
+    "Fixing the cable"
+  ],
+  "short_names": [
+    "Spring",
+    "White part",
+    "Screw-1",
+    "Inflate",
+    "Black part",
+    "Screw-2",
+    "Cable"
+  ],
+  "label_map": {
+    "task_0": {
+      "id": 0,
+      "name": "Assembling the spring"
+    },
+    "task_1": {
+      "id": 1,
+      "name": "Placing white plastic part"
+    },
+    "task_2": {
+      "id": 2,
+      "name": "Screwing-1"
+    },
+    "task_3": {
+      "id": 3,
+      "name": "Inflating the valve"
+    },
+    "task_4": {
+      "id": 4,
+      "name": "Placing black plastic part"
+    },
+    "task_5": {
+      "id": 5,
+      "name": "Screwing-2"
+    },
+    "task_6": {
+      "id": 6,
+      "name": "Fixing the cable"
+    }
+  },
+  "n_frames": 4,
+  "img_size": [
+    112,
+    112
+  ]
+}

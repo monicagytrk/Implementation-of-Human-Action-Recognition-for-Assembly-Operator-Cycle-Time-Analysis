@@ -47,11 +47,3 @@ Dapatkan API key gratis di https://console.groq.com
 ```bash
 streamlit run app.py
 ```
-Buka browser: http://localhost:8501
-
-## Perubahan v3 dari v2
-- Tidak ada sidebar — info model tampil di header
-- Parameter inferensi hardcoded (window=3s, stride=1.5s, min_dur=1.5s)
-- Groq API key di backend (secrets.toml), tidak di UI
-- Preview video 1/3 ukuran, posisi center
-- Fix error legend parameter di donut chart
